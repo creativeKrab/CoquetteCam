@@ -91,7 +91,6 @@ h2{
   width: 100px;   /* Change this to any bigger size like 180px or 200px */
   height: auto;
   margin: 0 8px;
-  border: 2px solid #ccc;
   cursor: pointer;
   transition: transform 0.2s;
 }
@@ -148,9 +147,7 @@ h2{
 }
 
 #result-image {
-  width: 400px;
-  border: 8px solid white;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  width: 300px;
 }
 
 #download-btn {

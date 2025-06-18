@@ -41,8 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
       canvas.width = 300;
       canvas.height = 300;
 
-      ctx.fillStyle = "white";
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       if (video.readyState >= 2) {
         ctx.drawImage(video, 0, 0, 300, 300);
